@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập js buổi 3</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <!-- Kiểm tra số chẵn lẻ -->
+    <div class="container text-center">
+      <h3 class="title">Kiểm tra số chẵn lẻ</h3>
+      <div class="my-5">
+        <label>Nhập số</label>
+        <input
+          id="number1"
+          type="text"
+          placeholder="nhập số"
+          class="border border-red-400 p-3 ml-4"
+        />
+      </div>
+      <button id="kiemTraSo" class="bg-black p-3 text-white rounded-md">
+        Kiểm tra
+      </button>
+      <p class="mt-2" id="result1"></p>
+    </div>
+    <!-- Xét thường nhân viên dạt doanh số -->
+
+    <div class="container text-center">
+      <h3 class="title">Xét thường nhân viên dạt doanh số</h3>
+      <div class="my-4">
+        <label
+          for="email"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          >Số lượng sản phẩm đã bán</label
+        >
+        <input
+          type="text"
+          id="number2"
+          class="p-2 w-1/2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg"
+          placeholder="nhập"
+        />
+      </div>
+      <div>
+        <button
+          id="nhanVienDatDoanhSo"
+          class="bg-black p-3 text-white rounded-md"
+        >
+          Tính
+        </button>
+      </div>
+    </div>
+
+    <!-- Tính chiết khấu -->
+    <div class="container text-center mt-4">
+      <h3 class="title">Tính chiết khấu</h3>
+      <div class="my-4">
+        <label
+          for="email"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          >Số tiền mua hàng</label
+        >
+        <input
+          type="text"
+          id="number3"
+          class="p-2 w-1/2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg"
+          placeholder="nhập"
+        />
+      </div>
+      <div>
+        <button id="tinhChietKhau" class="bg-black p-3 text-white rounded-md">
+          Tính Chiết Khấu
+        </button>
+      </div>
+    </div>
+
+    <!-- Kiểm tra mật khẩu mạnh hay yếu -->
+    <div class="container text-center mt-4">
+      <h3 class="title">Kiểm tra mật khẩu</h3>
+      <div class="my-4">
+        <label
+          for="email"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          >Nhập mật khẩu</label
+        >
+        <input
+          type="text"
+          id="number4"
+          class="p-2 w-1/2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg"
+          placeholder="nhập"
+        />
+      </div>
+      <div>
+        <p id="result2"></p>
+        <button id="matKhau" class="bg-black p-3 text-white rounded-md">
+          Kiểm tra Mật Khẩu
+        </button>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <script src="./js/main.js"></script>
+  </body>
+</html>
